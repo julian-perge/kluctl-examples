@@ -1,8 +1,5 @@
 deployments:
   - include: deployment
-  - git:
-    url: https://github.com/kluctl/kluctl.git
-    subDir: install/webui
 
 commonLabels:
   examples.kluctl.io/environment: "{{ args.environment }}"
